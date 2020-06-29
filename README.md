@@ -1,5 +1,5 @@
 # tr-logic-todo
-Test task for topdevs vacancy
+Test task for TR Logic LLC vacancy
 
 ## Project setup
 ```
