@@ -5,7 +5,11 @@ import store from './store'
 import './registerServiceWorker'
 
 Vue.config.productionTip = false
-
+Vue.directive('focus', {
+  inserted: function (el) {
+    el.focus()
+  }
+})
 new Vue({
   router,
   store,
